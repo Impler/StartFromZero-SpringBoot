@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+person:
+  name: 小明
+  age: 21
+  pets:
+  - name: 喵喵
+    type: cat
+  - name: 旺旺,
+    type: dog
+  friends:
+    no1: 张三
+    no2: 李四
+    no3: 王五
+  job:
+    name: 程序员
+    incoming: 22222.0
+## 开启自动配置报告
+debug: true
